@@ -27,3 +27,12 @@ Following along with the Kevtech IT Support series on YouTube.
 ---
 
 ## Part 2 
+
+## Part 2 - Active Directory & Domain Controller Setup
+
+- Renamed server to NJ-DC-01 (New Jersey - Domain Controller - 01)
+- Installed AD DS and required features via Server Manager
+- Promoted server to a Domain Controller and created a new forest with root domain company.com
+- Used PowerShell (Install-ADDSForest) to configure DNS, database paths, and SYSVOL
+- Encountered an initial failure, resolved by restarting and re-running the promotion
+- Logged back in as COMPANY\Administrator and verified domain structure in Active Directory Users and Computers
