@@ -20,15 +20,10 @@ Following along with the Kevtech IT Support series on YouTube.
 - Downloaded Windows Server 2022 ISO from Microsoft
 - Downloaded Windows 11 using the Media Creation Tool
 - Created a VM with 2 CPUs and 8GB RAM
-- Installed Windows Server 2022 with the Desktop Experience (so it has a GUI)
-- Set the time zone and display settings
+- Installed Windows Server 2022 with the Desktop Experience so it has a GUI
+- Tinkered with personal settings
 - Took a snapshot as a clean base image
 
 ---
 
-## Coming Soon
-
-- Part 2 - Active Directory
-- Part 3 - Guest Additions
-- Part 4 - Windows 11 domain join
-- Part 5 - Group Policy
+## Part 2 
