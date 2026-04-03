@@ -46,4 +46,4 @@ Following along with the Kevtech IT Support series on YouTube.
 - Created user accounts in Active Directory Users and Computers
 - Practiced basic AD user management, including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
 
-![Active Directory Users & Computers](.AD_Users.png)
+![Active Directory Users & Computers](./AD_Users.png)
