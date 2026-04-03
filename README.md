@@ -26,13 +26,21 @@ Following along with the Kevtech IT Support series on YouTube.
 
 ---
 
-## Part 2 
-
 ## Part 2 - Active Directory & Domain Controller Setup
 
 - Renamed server to NJ-DC-01 (New Jersey - Domain Controller - 01)
 - Installed AD DS and required features via Server Manager
-- Promoted server to a Domain Controller and created a new forest with root domain company.com
+- Promoted the server to a Domain Controller and created a new forest with the root domain company.com
 - Used PowerShell (Install-ADDSForest) to configure DNS, database paths, and SYSVOL
 - Encountered an initial failure, resolved by restarting and re-running the promotion
-- Logged back in as COMPANY\Administrator and verified domain structure in Active Directory Users and Computers
+- Logged back in as COMPANY\Administrator and verified the domain structure in Active Directory Users and Computers
+
+---
+
+## Part 3 - Guest Additions & Active Directory Users
+
+- Resolved an unexpected startup issue by restarting the VM
+- Installed VirtualBox Guest Additions for better VM performance and integration
+- Created a shared folder between the host machine and VM named helpdesklab
+- Created user accounts in Active Directory Users and Computers
+- Practiced basic AD user management including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
