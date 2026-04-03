@@ -8,7 +8,7 @@ Following along with the Kevtech IT Support series on YouTube.
 
 ## What I used
 
-- Oracle VirtualBox 7.1.4
+- Oracle VirtualBox
 - Windows Server 2022
 - Windows 11
 
@@ -43,4 +43,4 @@ Following along with the Kevtech IT Support series on YouTube.
 - Installed VirtualBox Guest Additions for better VM performance and integration
 - Created a shared folder between the host machine and VM named helpdesklab
 - Created user accounts in Active Directory Users and Computers
-- Practiced basic AD user management including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
+- Practiced basic AD user management, including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
