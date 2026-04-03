@@ -22,7 +22,6 @@ Following along with the Kevtech IT Support series on YouTube.
 - Created a VM with 2 CPUs and 8GB RAM
 - Installed Windows Server 2022 with the Desktop Experience so it has a GUI
 - Tinkered with personal settings
-- Took a snapshot as a clean base image
 
 ---
 
@@ -35,6 +34,8 @@ Following along with the Kevtech IT Support series on YouTube.
 - Encountered an initial failure, resolved by restarting and re-running the promotion
 - Logged back in as COMPANY\Administrator and verified the domain structure in Active Directory Users and Computers
 
+![Server Manager Dashboard](./Server_Dashboard.png)
+
 ---
 
 ## Part 3 - Guest Additions & Active Directory Users
@@ -44,3 +45,5 @@ Following along with the Kevtech IT Support series on YouTube.
 - Created a shared folder between the host machine and VM named helpdesklab
 - Created user accounts in Active Directory Users and Computers
 - Practiced basic AD user management, including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
+
+![Active Directory Users & Computers](.AD_Users.png)
