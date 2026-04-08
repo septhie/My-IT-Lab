@@ -34,7 +34,7 @@ Following along with the Kevtech IT Support series on YouTube.
 - Encountered an initial failure, resolved by restarting and re-running the promotion
 - Logged back in as COMPANY\Administrator and verified the domain structure in Active Directory Users and Computers
 
-![Server Manager Dashboard](./assets/Server_Dashboard.png)
+![Server Manager Dashboard](./Assets/Server_Dashboard.png)
 
 ---
 
@@ -46,7 +46,7 @@ Following along with the Kevtech IT Support series on YouTube.
 - Created user accounts in Active Directory Users and Computers
 - Practiced basic AD user management, including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
 
-![Active Directory Users & Computers](./assets/AD_Users.png)
+![Active Directory Users & Computers](./Assets/AD_Users.png)
 
 ---
 
