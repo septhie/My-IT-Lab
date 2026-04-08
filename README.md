@@ -62,9 +62,27 @@ Following along with the Kevtech IT Support series on YouTube.
 - Successfully joined the Windows 11 machine to the company.com domain
 - Verified domain login as amorgan and clucifer
 - Logged into Windows 11 as amorgan and used RDP to log into the Server (10.1.10.2) using the Administrator credentials
-- 
+  
 ![Windows 11 Domain Join](./Assets/New_Employee.png)
 ![ADUC Computer Object](./Assets/New_Desktop.png)
 ![RDP Session](./Assets/W11_RDP.png)
 
 ---
+
+## Part 5 - Group Policy Management & Account Security
+
+- Disabled user accounts in ADUC to simulate employee offboarding
+- Configured Group Policy Objects to enforce domain-wide security rules
+- Edited the Default Domain Policy to set password requirements
+- Set up Account Lockout Policies to prevent brute-force attacks:
+  - Account lockout threshold: 3 invalid logon attempts
+  - Account lockout duration: 30 minutes
+- Intentionally locked out the amorgan account by failing the password on the Windows 11 VM
+- Used the command line (net user amorgan /domain) to verify the lockout status
+- Practiced unlocking accounts and resetting passwords within ADUC to simulate a standard Helpdesk ticket
+
+![GPO Lockout Policy](./Assets/GPO_Lockout.png)
+![GPO Password Policy](./Assets/GPO_Password.png)
+![Account Lockout Verification](./Assets/GPO_Verification.png)
+![Account Locked Out](./Assets/Account_Locked.png)
+![Unlocking Account in ADUC](./Assets/ADUC_Unlock.png)
