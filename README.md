@@ -62,5 +62,9 @@ Following along with the Kevtech IT Support series on YouTube.
 - Successfully joined the Windows 11 machine to the company.com domain
 - Verified domain login as amorgan and clucifer
 - Logged into Windows 11 as amorgan and used RDP to log into the Server (10.1.10.2) using the Administrator credentials
+- 
+![Windows 11 Domain Join](./Assets/New_Employee.png)
+![ADUC Computer Object](./Assets/New_Desktop.png)
+![RDP Session](./Assets/W11_RDP.png)
 
 ---
