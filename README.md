@@ -34,7 +34,7 @@ Following along with the Kevtech IT Support series on YouTube.
 - Encountered an initial failure, resolved by restarting and re-running the promotion
 - Logged back in as COMPANY\Administrator and verified the domain structure in Active Directory Users and Computers
 
-![Server Manager Dashboard](./Server_Dashboard.png)
+![Server Manager Dashboard](./assets/Server_Dashboard.png)
 
 ---
 
@@ -46,4 +46,21 @@ Following along with the Kevtech IT Support series on YouTube.
 - Created user accounts in Active Directory Users and Computers
 - Practiced basic AD user management, including password resets, account unlocks, logon hour restrictions, personal information changing, etc.
 
-![Active Directory Users & Computers](./AD_Users.png)
+![Active Directory Users & Computers](./assets/AD_Users.png)
+
+---
+
+## Part 4 - Windows 11 Install & Domain Join
+
+- Created a new VM for Windows 11 Pro with 4 CPUs and 8GB RAM
+- Switched Graphics Controller to VBoxSVGA and bumped Video Memory to 128MB to fix black screen boot issues
+- Switched both VMs to an Internal Network named lab-net to resolve networking errors
+- Manually configured IPv4 on Windows 11:
+  - IP: 10.1.10.3
+  - Subnet: 255.0.0.0
+  - DNS: 10.1.10.2 (pointing to the Domain Controller)
+- Successfully joined the Windows 11 machine to the company.com domain
+- Verified domain login as amorgan and clucifer
+- Logged into Windows 11 as amorgan and used RDP to log into the Server (10.1.10.2) using the Administrator credentials
+
+---
