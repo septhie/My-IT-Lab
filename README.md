@@ -98,3 +98,7 @@ Following along with the Kevtech IT Support series on YouTube.
 - Deployed a software update for Microsoft Edge (147.0.3912.86) using the Deploy Updates automation.
 - Monitored the automation history and confirmed the update was successfully downloaded and installed on the target endpoint.
 - Explored the reporting and audit features to view real-time software inventory and vulnerability status.
+
+![Action1 Endpoints Dashboard](./Assets/Action1_Endpoints.png)
+![Action1 Automation Details](./Assets/Action1_Automation.png)
+![Action1 Managed Endpoints Report](./Assets/Managed_Endpoints_Report.png)
