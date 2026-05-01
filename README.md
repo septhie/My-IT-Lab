@@ -86,3 +86,15 @@ Following along with the Kevtech IT Support series on YouTube.
 ![Account Lockout Verification](./Assets/GPO_Verification.png)
 ![Account Locked Out](./Assets/Account_Locked.png)
 ![Unlocking Account in ADUC](./Assets/ADUC_Unlock.png)
+
+---
+
+## Part 6 - Remote Monitoring & Action1 Patch Management
+
+- Downloaded the Action1 agent to the host machine and moved it to the `helpdesklab` shared folder for VM access.
+- Enabled internet access on the VM by switching the Network Adapter to Bridged Adapter in VirtualBox settings.
+- Installed the Action1 agent on `NJ-DC-01` to connect the server to the cloud-based RMM dashboard.
+- Verified the endpoint status as "Connected" within the Action1 console.
+- Deployed a software update for Microsoft Edge (147.0.3912.86) using the Deploy Updates automation.
+- Monitored the automation history and confirmed the update was successfully downloaded and installed on the target endpoint.
+- Explored the reporting and audit features to view real-time software inventory and vulnerability status.
